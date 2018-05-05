@@ -1,9 +1,9 @@
 <html> <body>
 <script language="javascript">
 <script>
-var farenheitmin = prompt("Введите минимальное количество градусов °F", "");
-var farenheitmax = prompt("Введите максимальное количество градусов °F", "");
-var step = prompt("Введите шаг", "");
+var farenheitmin = prompt("Г‚ГўГҐГ¤ГЁГІГҐ Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЈГ°Г Г¤ГіГ±Г®Гў В°F", "");
+var farenheitmax = prompt("Г‚ГўГҐГ¤ГЁГІГҐ Г¬Г ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЈГ°Г Г¤ГіГ±Г®Гў В°F", "");
+var step = prompt("Г‚ГўГҐГ¤ГЁГІГҐ ГёГ ГЈ", "");
 document.write ("<TABLE border=1><tr><td> F </td><td> C </td> </tr>");
 while (farenheitmin<farenheitmax)
 {var celsius = (5/9*(farenheitmin - 32));
@@ -13,6 +13,6 @@ celsius = Math.round(5/9*(farenheitmin-32));
 document.write("<tr bgcolor=red><td>"+ farenheitmin +"</td><td>"+ celsius +"</td></tr>");
 farenheitmin = farenheitmin + step;}
 document.write("</TABLE>");
-</script>
+
 </body>
 </html>
