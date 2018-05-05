@@ -1,0 +1,18 @@
+<html> <body>
+<script language="javascript">
+<script>
+var farenheitmin = prompt("¬ведите минимальное количество градусов ∞F", "");
+var farenheitmax = prompt("¬ведите максимальное количество градусов ∞F", "");
+var step = prompt("¬ведите шаг", "");
+document.write ("<TABLE border=1><tr><td> F </td><td> C </td> </tr>");
+while (farenheitmin<farenheitmax)
+{var celsius = (5/9*(farenheitmin - 32));
+document.write("<tr bgcolor=yellow><td>"+ farenheitmin +"</td><td>"+ celsius +"</td></tr>");
+farenheitmin = farenheitmin + step;
+celsius = Math.round(5/9*(farenheitmin-32));
+document.write("<tr bgcolor=red><td>"+ farenheitmin +"</td><td>"+ celsius +"</td></tr>");
+farenheitmin = farenheitmin + step;}
+document.write("</TABLE>");
+</script>
+</body>
+</html>
